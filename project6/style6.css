@@ -1,0 +1,104 @@
+    body {
+      margin: 0;
+  background: #E5EEFF 0% 0% no-repeat padding-box;
+      display: flex;
+      justify-content: center;
+
+ top: 0px;
+left: 0px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 297px);
+      grid-auto-rows: 271px;
+      gap: 10px;
+      justify-content: center;
+      max-width: 100%;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+    .item {
+      width: 297px;
+      height: 271px;
+  background: #020253 0% 0% no-repeat padding-box;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+font: normal normal bold  Assistant;
+font-size: 80px;
+    }
+   
+    .title {
+      grid-column: span 2;
+      grid-row: span 2;
+      background-color: #00205b;
+      color: #00e0d4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      padding: 20px;
+    }
+    .form {
+     grid-column:1/ span 2;
+    grid-row:4/ span 3;
+   background: #8E097C 0% 0% no-repeat padding-box;
+text-align: center;
+font: normal normal bold 35px/46px Assistant;
+letter-spacing: 0px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   gap: 20px;
+    }
+    .form label {
+      text-align: right;
+font: normal normal bold 16px/24px Heebo;
+letter-spacing: 0px;
+color: #0EE1DA;
+
+
+    }
+    .form input, .form textarea {
+      margin-top: 5px;
+      padding: 10px;
+      border: none;
+      font-size: 14px;
+border-bottom: solid #0EE1DA 4px;
+background: #E5EEFF 0% 0% no-repeat padding-box;
+    }
+p
+{
+    text-align: center;
+font: normal normal normal 20px/26px Assistant;
+letter-spacing: 0px;
+color: #F9F9F9;
+opacity: 1;
+}
+    .form button {
+      margin-top: 15px;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #0EE1DA 0% 0% no-repeat padding-box;
+opacity: 1;
+
+height: 60px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+      }
+      .title, .form {
+        grid-column: span 2;
+      }
+      .item {
+        width: 100%;
+        height: auto;
+      }
+    }

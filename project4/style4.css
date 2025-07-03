@@ -1,0 +1,88 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+  font-family: "Playpen Sans Hebrew", cursive;
+ 
+ }
+ .container{
+background: transparent url('../project4/imges/Path 15.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 1920px;
+height: 743px;
+object-fit: cover;
+ }
+ h1{
+
+text-align: center;
+font: normal normal bold 86px/113px Assistant;
+letter-spacing: 0px;
+color: #D3E10E;
+padding-top:200px;
+padding-bottom: 40px;
+ }
+ p{
+text-align: center;
+font: normal normal normal 20px/26px Assistant;
+letter-spacing: 0px;
+color: #F9F9F9;
+ }
+ .contact-form {
+  display: flex;
+
+  gap: 20px;
+  justify-content: center;
+  direction: rtl;
+  padding: 40px 20px;
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  position: relative;
+  border-bottom: 4px solid #d3de00;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #f6f6f6;
+  font-size: 16px;
+  text-align: right;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #d3de00;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1 1 100%;
+  max-width: 150px;
+}
+
+.contact-form button:hover {
+  background-color: #bfcf00;
+}
+
+/* רספונסיביות מלאה למסכים קטנים */
+@media (max-width: 600px) {
+  .form-group {
+    flex: 1 1 100%;
+  }
+
+  .contact-form button {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+
+

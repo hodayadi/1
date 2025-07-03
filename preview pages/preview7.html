@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>צור קשר</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      background-color: #f0f0f0;
+    }
+
+    .contact-section {
+      position: relative;
+      background-color: #2f2f2f;
+      color: white;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 500px;
+    }
+
+    .contact-section img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 350px;
+      opacity: 0.2;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin-right: auto;
+      margin-left: auto;
+      z-index: 1;
+    }
+
+    .form-container h2 {
+      margin-bottom: 10px;
+    }
+
+    .form-container p {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .form-container button {
+      background-color: #00e3f3;
+      border: none;
+      color: black;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .form-container button:hover {
+      background-color: #01c7d4;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="contact-section">
+    <img src="../public/assets/images/Rectangle 41.png" alt="אייקון מעטפה גדול" />
+
+    <div class="form-container">
+      <h2>צור קשר</h2>
+      <p>מעוניינים להשאיר פנייה, הצעה או שאלה? מלאו את הטופס ונחזור אליכם בהקדם!</p>
+
+      <form>
+        <input type="text" placeholder="שם" required />
+        <input type="email" placeholder="אימייל" required />
+        <input type="text" placeholder="נושא" required />
+        <textarea rows="4" placeholder="הודעה" required></textarea>
+        <button type="submit">שליחה</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+

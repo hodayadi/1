@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    text-align: right;
+    width: 100vw;
+      font-family: "Playpen Sans Hebrew", cursive;
+   
+}
+h1{
+color:#020253;
+font: normal normal 900 43px/63px Heebo;
+}
+form{
+    flex: 1;
+    padding: 217px 208px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+img{
+  flex: 1;
+
+}
+p{
+font: normal normal normal 20px/29px Heebo;
+    color: #020253;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+
+}
+.label{
+font: normal normal normal 16px/24px Heebo;
+color:#2C2C2C ;
+}
+.input{
+background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: none;
+    font-size: 22px;
+    text-align: right;
+    border-bottom: 4px solid #020253;
+padding: 5px 0;
+}
+button{
+background-color:#020253 ;
+color: #fff;
+letter-spacing: 0.33px;
+font: normal normal bold 22px/30px Heebo;
+width: 166px;
+border: none;
+margin-left: auto;
+padding: 5px 0;
+}
+@media(max-width:1900px){
+    form{
+        padding: 217px 120px;
+    }
+}
+@media(max-width:1750){
+    img{
+        width: 30px;
+        object-fit: cover;
+    }
+}
+@media(max-width:1050px){
+    body{
+        flex-direction: column;
+        overflow: auto;
+    }
+    img{
+     object-fit: cover;
+     height: 150px;
+     width: 100%;
+       
+    }
+   form {
+padding: 0 10px;
+    }
+}
