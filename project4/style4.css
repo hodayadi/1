@@ -28,7 +28,6 @@ color: #F9F9F9;
  }
  .contact-form {
   display: flex;
-
   gap: 20px;
   justify-content: center;
   direction: rtl;
@@ -71,8 +70,6 @@ color: #F9F9F9;
 .contact-form button:hover {
   background-color: #bfcf00;
 }
-
-/* רספונסיביות מלאה למסכים קטנים */
 @media (max-width: 600px) {
   .form-group {
     flex: 1 1 100%;

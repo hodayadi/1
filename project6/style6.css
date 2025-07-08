@@ -52,33 +52,43 @@ letter-spacing: 0px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-   gap: 20px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
     .form label {
       text-align: right;
-font: normal normal bold 16px/24px Heebo;
+font: normal normal bold 18px/24px Heebo;
 letter-spacing: 0px;
 color: #0EE1DA;
-
-
+  margin-bottom: 10px;
+  line-height: 1.6;
     }
     .form input, .form textarea {
-      margin-top: 5px;
-      padding: 10px;
-      border: none;
-      font-size: 14px;
+      width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+    border: none;
+  font-size: 16px;
 border-bottom: solid #0EE1DA 4px;
+  box-sizing: border-box;
 background: #E5EEFF 0% 0% no-repeat padding-box;
     }
 p
 {
     text-align: center;
-font: normal normal normal 20px/26px Assistant;
+font: normal normal normal 23px/26px Assistant;
 letter-spacing: 0px;
+
 color: #F9F9F9;
 opacity: 1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+textarea{
+    resize: vertical;
+height: 172px;
 }
     .form button {
+       width: 100%;
       margin-top: 15px;
       border: none;
       font-size: 16px;
@@ -86,8 +96,10 @@ opacity: 1;
       cursor: pointer;
       background: #0EE1DA 0% 0% no-repeat padding-box;
 opacity: 1;
-
 height: 60px;
+  padding: 15px 0;
+    transition: 0.3s;
+font: normal normal bold 24px/33px Heebo;
     }
     @media (max-width: 768px) {
       .container {

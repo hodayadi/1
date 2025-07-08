@@ -146,8 +146,8 @@ form{
     letter-spacing: 0px;
 color: #F9F9F9;
 text-align: center;
-margin-right: 700px;
-margin: 20px 10px 20px ;
+padding-left: 100px;
+
 
     
 }
@@ -155,7 +155,7 @@ margin: 20px 10px 20px ;
 .form-container {
   display: flex;
   justify-content: center;
-  gap: 0px;
+  gap: 5px;
 
 }
 
@@ -163,6 +163,7 @@ margin: 20px 10px 20px ;
   display: flex;
   flex-direction: column;
 margin: 10px;
+  position: relative;
 }
 
 label {
@@ -193,18 +194,19 @@ height: 50px;
 input::placeholder {
   color: #ddd;
 }
-
-
-
-button{
+.form-button{
+position: relative;
+}
+ button{
     background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 width: 206px;
-height: 50px;
+height: 60px;
 text-align: center;
-margin: auto;
-margin-top: 30px;
-    margin-right: 20px;
+position: absolute;
+bottom:20px;
+right: 5px;
+font: normal normal normal 16px/20px Varela Round;
 }
 .img-home{
 background: #EBFEFF 0% 0% no-repeat padding-box;
