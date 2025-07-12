@@ -118,12 +118,11 @@
  }
 
  .card>img {
-  
-  
+   height: 223px;
    border-radius: 10px 10px 0px 0px;
  }
 
-.h2_project{
+ .h2_project {
    text-align: center;
    padding-bottom: 40px;
    margin-top: 50px;
