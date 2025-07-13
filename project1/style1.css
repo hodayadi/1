@@ -48,34 +48,12 @@ font-size: 25px;
   .menu-toggle {
      display: none;
  }
-
- @media (max-width:567px) {
-     header>nav>ul {
-         position: absolute;
-         flex-direction: column;
-         right: 0;
-         width: 100vw;
-         transition: transform 300ms ease-in-out;
-        transform: translateX(100%);
-  
-     }
-
-     .menu-toggle {
-         display: none;
-     }
-
-     #menu-toggle:checked+ul {
-        transform: translateX(0);
-     }
- }
  .project{
     text-align: center;
 padding-top: 60px;
 background: #13E8F163 0% 0% no-repeat padding-box;
-width: 1920px;
-height: 461px;
 font: normal normal 900 80px/118px Heebo;
-
+   padding: 50px 20px;
  }
  .project>h1{
     font-size: 80px;
@@ -93,7 +71,6 @@ font-size: 30px;
  }
  .project>img{
     height: 200px;
-width: 100%;
 object-fit: inherit;
  }
  .project>a{
@@ -252,3 +229,24 @@ background: #000000 0% 0% no-repeat padding-box;
   direction: ltr;
   color:#1AE0EC;
 }
+ @media (max-width:567px) {
+     header>nav>ul {
+         position: absolute;
+         flex-direction: column;
+         right: 0;
+         width: 100vw;
+         transition: transform 300ms ease-in-out;
+        transform: translateX(100%);
+  
+     }
+
+     .menu-toggle {
+         display: none;
+     }
+
+     #menu-toggle:checked+ul {
+        transform: translateX(0);
+     }
+  
+    
+ }
